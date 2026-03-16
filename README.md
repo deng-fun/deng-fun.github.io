@@ -1,3 +1,5 @@
+> 本项目是由[koharu](https://github.com/Radekyspec/koharu)和[扣子编程](code.coze.cn)合力完成，本人只略懂一点代码，有什么问题直接把项目上传到扣子问😁
+
 # astro-koharu
 
 ![](https://r2.cosine.ren/i/2026/01/94383107ba4586f773938ed4dae34ff1.webp)
@@ -28,6 +30,7 @@
 可在此进行博客的[反馈](https://cos.featurebase.app/)以及查看 Roadmap，当然更欢迎在 issue 区域提 issue，不过这毕竟是个人项目，喜欢的也欢迎 fork 出去改。
 
 ![](https://r2.cosine.ren/i/2026/01/f1c239b4adf7771f10b954c389d87a74.webp)
+
 ![](https://r2.cosine.ren/i/2026/01/c962f82503abf68eb1f21b835873f241.webp)
 
 ## 部署
@@ -37,7 +40,9 @@
 ### 一键部署
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/cosZone/astro-koharu&project-name=astro-koharu&repository-name=astro-koharu)
+
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cosZone/astro-koharu)
+
 [![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cosZone/astro-koharu)
 
 ### Docker 部署
@@ -258,12 +263,13 @@ comment:
 ## 使用本主题的博客
 
 > 学习[纸鹿的博客](https://github.com/L33Z22L11/blog-v3)，我也弄一个放谁在用我的主题的区域。\
+>
 > 欢迎加入 Q 群 598022684 进行讨论，或者在我的[前端频道](https://t.me/cosine_front_end)的评论区群聊讨论。
 
-| 博客名称                                  | 作者       | 仓库                                                            | 特色功能 or 备注             |
-| ----------------------------------------- | ---------- | --------------------------------------------------------------- | ---------------------------- |
-| **[余弦の博客](http://blog.cosine.ren/)** | **cosine** | [cosZone/astro-koharu](https://github.com/cosZone/astro-koharu) | 本主题                       |
-| [雪花的博客](https://xhblog.top/)         | XueHua-s   | [XueHua-s/astro-snow](https://github.com/XueHua-s/astro-snow)   | 精简了很多功能，增加了起始页 |
+| 博客名称 | 作者 | 仓库 | 特色功能 or 备注 |
+| --- | --- | --- | --- |
+| **[余弦の博客](http://blog.cosine.ren/)** | **cosine** | [cosZone/astro-koharu](https://github.com/cosZone/astro-koharu) | 本主题 |
+| [雪花的博客](https://xhblog.top/) | XueHua-s | [XueHua-s/astro-snow](https://github.com/XueHua-s/astro-snow) | 精简了很多功能，增加了起始页 |
 
 ## 🙏 鸣谢
 
@@ -287,4 +293,3 @@ comment:
 ## License
 
 GNU Affero General Public License version 3 (AGPL-3.0)
-# dengfan.github.io
