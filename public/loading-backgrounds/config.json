@@ -1,0 +1,14 @@
+{
+  "backgrounds": [
+    {
+      "filename": "bg-1.png",
+      "description": "背景图1"
+    },
+   
+    {
+      "filename": "bg-3.jpg",
+      "description": "背景图3"
+    }
+  ],
+  "note": "添加或删除背景图时，请同时更新此配置文件和对应的图片文件"
+}

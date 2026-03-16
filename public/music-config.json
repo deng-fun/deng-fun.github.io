@@ -1,0 +1,40 @@
+{
+  "songs": [
+    {
+      "id": "1",
+      "title": "ウィニング・ラン!~風になりたい",
+      "artist": "山形ユキオ",
+      "cover": "https://picsum.photos/seed/brothers1/200/200",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    },
+    {
+      "id": "2",
+      "title": "Fight!!",
+      "artist": "山形ユキオ",
+      "cover": "https://picsum.photos/seed/brothers2/200/200",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+    },
+    {
+      "id": "3",
+      "title": "傷つくこともできない",
+      "artist": "山形ユキオ",
+      "cover": "https://picsum.photos/seed/brothers3/200/200",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+    },
+    {
+      "id": "4",
+      "title": "Grow Up",
+      "artist": "山形ユキオ",
+      "cover": "https://picsum.photos/seed/brothers4/200/200",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+    },
+    {
+      "id": "5",
+      "title": "ヨカッタネ",
+      "artist": "山形ユキオ",
+      "cover": "https://picsum.photos/seed/brothers5/200/200",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+    }
+  ],
+  "note": "添加或删除歌曲时，请遵循以下规则：1. 每首歌曲必须有唯一的id 2. cover可以是本地路径（/music-covers/xxx.jpg）或网络链接 3. url支持本地路径（/music/xxx.mp3）或网络链接"
+}
