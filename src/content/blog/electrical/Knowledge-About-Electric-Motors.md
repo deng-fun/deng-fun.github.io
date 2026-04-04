@@ -1,20 +1,13 @@
-<hr>
+--- 
 title: 电动机相关知识
-
 date: 2026-03-17
-
-tags: 
-
-- 电动机
-
+tags:
+ - 电动机
 categories:
-
-- 电工
-
-link: electrical
+ - 电工
 
 description: "关于电动机的笔记，仅作为个人见解。"
-<hr>
+--- 
 ## 电动机
 
 ### 1. 星型接法和三角形接法
