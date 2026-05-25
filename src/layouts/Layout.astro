@@ -13,17 +13,17 @@ import { ClientRouter } from 'astro:transitions';
 import AnnouncementProvider from '@components/announcement/AnnouncementProvider.astro';
 import ChristmasEffects from '@components/christmas/ChristmasEffects.astro';
 import FloatingGroup from '@components/layout/FloatingGroup';
-import Live2DCharacter from '@components/live2d/Live2DCharacter';
-import MusicPlayer from '@components/music/MusicPlayer';
 import Header from '@components/layout/Header.astro';
 import MobileDrawer from '@components/layout/MobileDrawer.astro';
 import SearchDialog from '@components/layout/SearchDialog';
 import SearchPortal from '@components/layout/SearchPortal.astro';
+import Live2DCharacter from '@components/live2d/Live2DCharacter';
 import CodeBlockFullscreen from '@components/markdown/CodeBlockFullscreen';
 import InfographicFullscreen from '@components/markdown/InfographicFullscreen.astro';
 import MermaidFullscreen from '@components/markdown/MermaidFullscreen.astro';
+import MusicPlayer from '@components/music/MusicPlayer';
 import { Toaster } from '@components/ui/sonner';
-import { christmasConfig, seoConfig, siteConfig } from '@constants/site-config';
+import { christmasConfig, live2dConfig, musicPlayerConfig, seoConfig, siteConfig } from '@constants/site-config';
 import { getOgImageUrl } from '@lib/seo/og-image';
 import LoadingIndicator from 'astro-loading-indicator/component';
 import { SEO } from 'astro-seo';
@@ -332,8 +332,8 @@ const ogImage = getOgImageUrl(post?.data.cover, Astro.site);
         {(<slot />)}
       </main>
       <FloatingGroup client:only="react" />
-      <MusicPlayer client:only="react" />
-      <Live2DCharacter client:only="react" />
+      {musicPlayerConfig.enabled && <MusicPlayer client:only="react" />}
+      {live2dConfig.enabled && <Live2DCharacter client:only="react" />}
       <MobileDrawer type={siderType} post={post} />
       <SearchDialog client:idle />
       <SearchPortal />

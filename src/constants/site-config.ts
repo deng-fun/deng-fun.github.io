@@ -284,6 +284,28 @@ export const devConfig: DevConfig = {
 };
 
 // =============================================================================
+// Live2D Config
+// =============================================================================
+type Live2DConfig = {
+  enabled: boolean;
+};
+
+export const live2dConfig: Live2DConfig = {
+  enabled: yamlConfig.live2d?.enabled ?? false,
+};
+
+// =============================================================================
+// Music Player Config
+// =============================================================================
+type MusicPlayerConfig = {
+  enabled: boolean;
+};
+
+export const musicPlayerConfig: MusicPlayerConfig = {
+  enabled: yamlConfig.musicPlayer?.enabled ?? false,
+};
+
+// =============================================================================
 // Site Timezone
 // =============================================================================
 
